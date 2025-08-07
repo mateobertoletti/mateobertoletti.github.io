@@ -1,0 +1,72 @@
+body {
+    background-image: url(Fondo.jpg);
+}
+
+.banner {
+    color: rgb(17, 0, 252);
+    margin: 30px auto;
+    align-items: center;
+    text-align: center;
+    max-width: max-content;
+    font-size: 80px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+.icon {
+    width: 80px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.redes {
+    text-align: center;
+    color: rgb(37, 147, 243);
+}
+
+#hobby {
+    color: rgba(240, 5, 228, 0.774);
+    text-align: center;
+    
+
+}
+
+#lista1{
+    color: rgb(124, 0, 161);
+    border-radius: 3%;
+    border-color: rgb(9, 0, 90);
+    text-align: center;
+    font-size: 30px;
+    list-style-position: inside;
+    width: fit-content;   
+}
+
+.info {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#lista2 {
+    color: rgb(124, 0, 161);
+    border-radius: 3%;
+    border-color: rgb(9, 0, 90);
+    text-align: center;
+    font-size: 30px;
+    list-style-position: inside;
+    width: fit-content;    
+}
+
+.contenedor-listas {
+  display: flex; 
+  flex-direction: row; 
+  gap: 320px; 
+}
+
+.img {
+    width: 300px;
+    border-radius: 30px;
+    text-align: center;
+}
