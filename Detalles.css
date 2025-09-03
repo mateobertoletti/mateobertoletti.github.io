@@ -3,6 +3,7 @@ body {
   background-image: url(Fondo.jpg);
 }
 
+/* Banner principal */
 .banner {
   color: rgb(17, 0, 252);
   margin: 30px auto 20px auto;
@@ -15,24 +16,31 @@ body {
   max-width: max-content;
 }
 
+/* Iconos de redes sociales */
 .icon {
   width: 80px;
   height: auto;
   border-radius: 50px;
 }
 
+/* Contenedor de iconos */
 .redes {
-  text-align: center;
+  display: flex;              /* Flexbox para alinear los iconos */
+  justify-content: center;    /* Centrado horizontal */
+  gap: 15px;                  /* Espacio entre iconos */
   color: rgb(37, 147, 243);
   font-size: 18px;
+  margin-top: 20px;
 }
 
+/* Título hobbies */
 #hobby {
   color: rgba(240, 5, 228, 0.774);
   text-align: center;
   font-size: 30px;
 }
 
+/* Listas de conocimientos y hobbies */
 #lista1,
 #lista2 {
   color: rgb(124, 0, 161);
@@ -42,29 +50,37 @@ body {
   list-style-position: inside;
   width: fit-content;
   margin: 0 auto;
+  flex: 1 1 250px;            /* Flexbox: crece y se encoge */
 }
 
+/* Info debajo del banner */
 .info {
   color: rgb(0, 0, 0);
   text-align: center;
   font-size: 18px;
 }
 
+/* Contenedor principal de listas y foto */
 .contenedor-listas {
   display: flex;
   flex-direction: row;
-  gap: 320px;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: flex-start;    /* Alinea al inicio verticalmente */
+  gap: 50px;                  /* Espacio entre bloques */
+  flex-wrap: wrap;             /* Permite bajar elementos en pantallas pequeñas */
+  padding: 20px;
 }
 
+/* Imagen principal */
 .img {
-  width: 300px;
+  flex: 1 1 250px;            /* Flexbox: crece y se encoge */
+  max-width: 300px;
+  width: 100%;
   border-radius: 30px;
   text-align: center;
 }
 
-/* Media Queries: Móviles */
+/* Media queries para pantallas pequeñas */
 @media screen and (max-width: 480px) {
   .contenedor-listas {
     flex-direction: column;
@@ -102,7 +118,7 @@ body {
   }
 }
 
-/* Media Queries: Tablets */
+/* Media queries para pantallas medianas */
 @media screen and (min-width: 481px) and (max-width: 1024px) {
   .contenedor-listas {
     flex-direction: column;
