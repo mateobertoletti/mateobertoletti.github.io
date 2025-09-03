@@ -119,6 +119,10 @@ body {
     font-size: 18px;
   }
 
+  #conocimientos {
+    font-size: 18px;
+  }
+
   .info {
     font-size: 14px;
   }
@@ -154,6 +158,10 @@ body {
   }
 
   #hobby {
+    font-size: 20px;
+  }
+  
+  #conocimientos {
     font-size: 20px;
   }
 
