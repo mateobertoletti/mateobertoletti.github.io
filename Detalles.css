@@ -35,9 +35,15 @@ body {
 
 /* Título hobbies */
 #hobby {
-  color: rgba(240, 5, 228, 0.774);
+  color: rgb(255, 0, 0);
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
+}
+
+#conocimientos {
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-size: 40px;
 }
 
 /* Listas de conocimientos y hobbies */
@@ -57,7 +63,7 @@ body {
 .info {
   color: rgb(0, 0, 0);
   text-align: center;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 /* Contenedor principal de listas y foto */
