@@ -1,0 +1,182 @@
+/* Estilos generales */
+body {
+  background-image: url(Fondo.jpg);
+}
+
+/* Banner principal */
+.banner {
+  color: rgb(17, 0, 252);
+  margin: 30px auto 20px auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 80px;
+  border-radius: 10px;
+  max-width: max-content;
+}
+
+/* Iconos de redes sociales */
+.icon {
+  width: 80px;
+  height: auto;
+  border-radius: 50px;
+}
+
+/* Contenedor de iconos */
+.redes {
+  display: flex;              /* Flexbox para alinear los iconos */
+  justify-content: center;    /* Centrado horizontal */
+  gap: 15px;                  /* Espacio entre iconos */
+  color: rgb(37, 147, 243);
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Título hobbies */
+#hobby {
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-size: 40px;
+}
+
+#conocimientos {
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-size: 40px;
+}
+
+/* Listas de conocimientos y hobbies */
+#lista1,
+#lista2 {
+  color: rgb(124, 0, 161);
+  border-radius: 3%;
+  text-align: center;
+  font-size: 30px;
+  list-style-position: inside;
+  width: fit-content;
+  margin: 0 auto;
+  flex: 1 1 250px;            /* Flexbox: crece y se encoge */
+}
+
+/* Info debajo del banner */
+.info {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Contenedor principal de listas y foto */
+.contenedor-listas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;    /* Alinea al inicio verticalmente */
+  gap: 50px;                  /* Espacio entre bloques */
+  flex-wrap: wrap;             /* Permite bajar elementos en pantallas pequeñas */
+  padding: 20px;
+}
+
+/* Imagen principal */
+.img {
+  flex: 1 1 250px;            /* Flexbox: crece y se encoge */
+  max-width: 300px;
+  width: 100%;
+  border-radius: 30px;
+  text-align: center;
+}
+
+/* Media queries para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+  .contenedor-listas {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .img {
+    width: 200px;
+  }
+
+  #lista1,
+  #lista2 {
+    font-size: 20px;
+  }
+
+  .banner {
+    font-size: 50px;
+  }
+
+  .icon {
+    width: 50px;
+  }
+
+  .redes {
+    font-size: 14px;
+  }
+
+  #hobby {
+    font-size: 24px;
+  }
+
+  #conocimientos {
+    font-size: 24px;
+  }
+
+  #conocimientos {
+    font-size: 18px;
+  }
+
+  .info {
+    font-size: 14px;
+  }
+}
+
+/* Media queries para pantallas medianas */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .contenedor-listas {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .img {
+    width: 250px;
+  }
+
+  #lista1,
+  #lista2 {
+    font-size: 25px;
+  }
+
+  .banner {
+    font-size: 60px;
+  }
+
+  .icon {
+    width: 60px;
+  }
+
+  .redes {
+    font-size: 16px;
+  }
+
+  #hobby {
+    font-size: 32px;
+  }
+  
+  #conocimientos {
+    font-size: 32px;
+  }
+  
+  #conocimientos {
+    font-size: 20px;
+  }
+
+  .info {
+    font-size: 16px;
+  }
+}
+
+
+
